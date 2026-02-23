@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusConnect - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* TASK 16 PREPARATION: 
+           When you reach Task 16, change "#0d6efd" (blue) to another color like "#198754" (green) or "red", 
+           then commit and push to see the CI/CD pipeline update the site! */
+        .hero-bg { 
+            background-color: #0d6efd; 
+            color: white; 
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">CampusConnect</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-5 hero-bg text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Welcome to CampusConnect</h1>
+            <p class="lead">The ultimate digital platform for modern universities.</p>
+        </div>
+    </header>
+
+    <main class="container my-5 flex-grow-1">
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title">For Students</h3>
+                        <p class="card-text">Access all your course materials, grades, and campus resources in one place.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title">For Faculty</h3>
+                        <p class="card-text">Streamline communication and seamlessly share resources with your classes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title">Campus News</h3>
+                        <p class="card-text">Stay updated with the latest events, clubs, and announcements on campus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 CampusConnect. Built for DevOps CI/CD Deployment.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
